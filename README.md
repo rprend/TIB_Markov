@@ -7,6 +7,7 @@ Essay_generator.py implements a simple Markov chain. Since every word w in any e
 1. Generate an initial random word from words_dict.keys()
 2. Retrieve the list at words_dict[key]
 3. Pick a random element in that list (this is a weighted probability), because multiple instances of common words will appear multiple times in the list)
+4. Add to output string and be happy
 
 TO USE:
 Unzip uncollated_words.json
